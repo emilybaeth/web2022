@@ -10,29 +10,36 @@ body {
 }
 
 header {
+  display: flex;
   background-color: #0033A0;
   color: #fff;
 }
 
 h1 {
-  padding: 10px;
+  padding: 30px;
   text-align: center;
   font-size: 2em;
 }
 
 header img {
-  height: 120px;
-  width: 120px;
+  display: flex;
+  justify: center;
+  padding: 1em;
+  height: 100px;
+  width: 100px;
 }
 
 nav ul {
   background-color: #D4D4D4;
   border: 1px;
-  padding: 1em 4em 1em 4em;
+  padding: 1em;
   font-weight: bold;
 }
 
 nav ul li a {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  justfy: center;
   color: black;
   text-transform: uppercase;
   text-decoration: none;
@@ -74,21 +81,27 @@ img {
 .uk {
   height: 100px;
   width: 100px;
+  padding: 2em;
 }
 .nike {
   height: 120px;
   width: 120px;
+  padding: 2em;
 }
 .sec {
   height: 120px;
   width: 120px;
+  padding: 2em;
 }
 .ncaa {
   height: 100px;
   width: 100px;
+  padding: 2em;
 }
 
 .images {
   display: flex;
-  justify-content: center;
+  justify: center;
+  padding: 4em;
+
 }
