@@ -1,41 +1,36 @@
 html{
   font-size: 100%;
 }
-
 body {
   padding: 0;
   margin: 0;
   background-color: white;
   font-family: Georgia, serif;
 }
-
 header {
   display: flex;
   background-color: #0033A0;
   color: #fff;
 }
-
 h1 {
   padding: 30px;
   text-align: center;
   font-size: 2em;
 }
-
 header img {
-  display: flex;
-  justify: center;
+  display: grid;
+  justify-content: flex-end;
+  align-content: flex-end;
   padding: 1em;
   height: 100px;
   width: 100px;
 }
-
 nav ul {
   background-color: #D4D4D4;
   border: 1px;
   padding: 1em;
   font-weight: bold;
 }
-
 nav ul li a {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -44,14 +39,11 @@ nav ul li a {
   text-transform: uppercase;
   text-decoration: none;
 }
-
-nav ul li a:hover{
+nav ul li a:hover {
   color: #0033A0;
   text-transform: uppercase;
   text-decoration: none;
 }
-
-
 ul li {
   text-align: center;
   list-style: inside;
@@ -59,11 +51,9 @@ ul li {
     padding: 10px;
     margin-top: 5px;
 }
-
 .wrapper {
   margin: 0 2em 0 2em;
 }
-
 footer {
   background-color: #0033A0;
 }
@@ -71,13 +61,10 @@ section img {
   width: 100%;
   height: 100%;
 }
-
-
 img {
   max-width: 100%;
   max-height: 100%;
 }
-
 .uk {
   height: 100px;
   width: 100px;
@@ -98,10 +85,11 @@ img {
   width: 100px;
   padding: 2em;
 }
-
 .images {
-  display: flex;
-  justify: center;
+  display: grid;
+  align-items: center;
+  align-content: space-evenly;
+  justify-content: space-evenly;
+  justify-items: center;
   padding: 4em;
-
 }
