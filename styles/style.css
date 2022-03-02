@@ -12,6 +12,9 @@ header {
   background-color: #0033A0;
   color: #fff;
 }
+header a {
+  color: white;
+}
 h1 {
   padding: 30px;
   text-align: center;
@@ -86,4 +89,24 @@ footer {
   justify-content: space-evenly;
   justify-items: center;
   padding: 4em;
+}
+.uk {
+  height: 100px;
+  width: 100px;
+  padding: 2em;
+}
+.nike {
+  height: 120px;
+  width: 120px;
+  padding: 2em;
+}
+.sec {
+  height: 120px;
+  width: 120px;
+  padding: 2em;
+}
+.ncaa {
+  height: 100px;
+  width: 100px;
+  padding: 2em;
 }
