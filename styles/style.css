@@ -90,26 +90,32 @@ footer {
   padding: 4em;
   max-width: 100%;
   max-height: 100%;
-  border: 10px solid white;
-  box-shadow: 10px 10px;
 }
 .uk {
   height: 90px;
   width: 90px;
   padding: 2em;
+  border: 10px solid;
+  box-shadow: 10px 10px solid white;
 }
 .nike {
   height: 120px;
   width: 120px;
   padding: 2em;
+  border: 10px solid;
+  box-shadow: 10px 10px solid white;
 }
 .sec {
   height: 120px;
   width: 120px;
   padding: 2em;
+  border: 10px solid;
+  box-shadow: 10px 10px solid white;
 }
 .ncaa {
   height: 100px;
   width: 100px;
   padding: 2em;
+  border: 10px solid;
+  box-shadow: 10px 10px solid white;
 }
