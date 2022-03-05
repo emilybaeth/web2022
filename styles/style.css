@@ -92,30 +92,30 @@ footer {
   max-height: 100%;
 }
 .uk {
-  height: 90px;
-  width: 90px;
+  height: 100px;
+  width: 100px;
   padding: 2em;
-  border: 10px solid;
-  box-shadow: 10px 10px solid white;
+  border: 7px solid;
+  box-shadow: 7px 7px white;
 }
 .nike {
-  height: 120px;
-  width: 120px;
+  height: 100px;
+  width: 100px;
   padding: 2em;
-  border: 10px solid;
-  box-shadow: 10px 10px solid white;
+  border: 7px solid;
+  box-shadow: 7px 7px white;
 }
 .sec {
-  height: 120px;
-  width: 120px;
+  height: 100px;
+  width: 100px;
   padding: 2em;
-  border: 10px solid;
-  box-shadow: 10px 10px solid white;
+  border: 7px solid;
+  box-shadow: 7px 7px white;
 }
 .ncaa {
   height: 100px;
   width: 100px;
   padding: 2em;
-  border: 10px solid;
-  box-shadow: 10px 10px solid white;
+  border: 7px solid;
+  box-shadow: 7px 7px white;
 }
