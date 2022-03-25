@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contact Page</title>
+
+    <style>
+
+    h1 {
+      background-color: #0033A0;
+      color: #fff;
+      padding: 30px;
+      text-align: center;
+      font-size: 2em;
+    }
+
+    .user-details {
+      color: #00008bff;
+    }
+
+    .button {
+      border: 3px solid #cf000fff;
+      background-color: #00008bff;
+      color: white;
+      padding: 10px 15px 10px 15px;
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+
+    </style>
+
+  </head>
+  <body>
+
+    <h1> Stay in the loop with UK Swim & Dive! </h1>
+
+    <h2> Sign up for our email list! </h2>
+    <form action="scripts/action1.php" method="post" class="user-details">
+        <label for="first"> First Name: </label>
+        <input type="text" name="first" id="first" required>
+        <br>
+        <label for="last"> Last Name: </label>
+        <input type="text" name="last" id="last" required>
+        <br>
+        <label for="email"> Email: </label>
+        <input type="text" name="email" id="email" required>
+        <input type="submit" value="Submit">
+        <br><br>
+      </form>
+
+      <h2> CLick this button to cheer on the Cats!</h2>
+      <form action="scripts/action.php" method="get" class="basic-button">
+        <button type="button" name="button">GO CATS!</button>
+      </form>
+
+      <h2> Select your favorite stroke</h2>
+      <form action="scripts/action.php" method="get">
+        <label for="stroke">Favorite stroke?</label>
+        <input list="stroke" id="stroke" name="stroke">
+        <datalist id="stroke">
+          <option value="Butterfly"></option>
+          <option value="Backstroke"></option>
+          <option value="Breaststroke"></option>
+          <option value="Freestyle"></option>
+          <option value="IM"></option>
+        </datalist>
+      </form>
+
+      <h2>Which home meet are you most excited to attend?</h2>
+      <form action="scripts/action.php" method="get">
+        <label for="meets">Select meet:</label>
+        <select id="meet" name="meet">
+          <option value="">--Please choose an option--</option>
+          <option value="castle">Blue v. White Intrasquad</option>
+          <option value="tree house">Tennesse</option>
+          <option value="tiny home">Ohio</option>
+          <option value="tiny home">Texas</option>
+        </select>
+      </form>
+
+      <h2>Predict UK's finish at NCAA's</h2>
+     <form action="scripts/action.php" method="get">
+       <fieldset>
+         <legend>Choose one: </legend>
+         <input type="radio" name="top" id="top">
+         <label for="top">Top 5</label><br/>
+
+         <input type="radio" name="5" id="5">
+         <label for="5">6-10</label><br/>
+
+         <input type="radio" name="10" id="10">
+         <label for="10">11-15</label>
+
+         <input type="radio" name="15" id="15">
+         <label for="15">16-20</label>
+       </fieldset>
+     </form>
+
+     <h2>Leave us a message!</h2>
+    <form action="scripts/action.php" method="post">
+      <label for="message">Send a comment or question to swimmers, divers, or staff:</label>
+      <textarea name="message" id="message" rows="20" cols="100">Enter here:</textarea>
+      <input type="submit" value="Submit">
+    </form>
+
+
+
+  </body>
+</html>
