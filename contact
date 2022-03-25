@@ -13,17 +13,19 @@
       font-size: 2em;
     }
 
-    .user-details {
-      color: #00008bff;
+    .basic label {
+      color: #0033A0;
+      font-weight: bold;
+    }
+
+    .basic input {
+      border: 2px dotted black;
+      display: flex;
     }
 
     .button {
-      border: 3px solid #cf000fff;
-      background-color: #00008bff;
-      color: white;
-      padding: 10px 15px 10px 15px;
-      font-weight: bold;
-      font-size: 1.2rem;
+      border-radius: 10%;
+      box-shadow: 10px 10px 10px #0033A0;
     }
 
     </style>
@@ -34,7 +36,7 @@
     <h1> Stay in the loop with UK Swim & Dive! </h1>
 
     <h2> Sign up for our email list! </h2>
-    <form action="scripts/action1.php" method="post" class="user-details">
+    <form action="scripts/action1.php" method="post" class="basic">
         <label for="first"> First Name: </label>
         <input type="text" name="first" id="first" required>
         <br>
@@ -48,7 +50,7 @@
       </form>
 
       <h2> CLick this button to cheer on the Cats!</h2>
-      <form action="scripts/action.php" method="get" class="basic-button">
+      <form action="scripts/action.php" method="get" class="button">
         <button type="button" name="button">GO CATS!</button>
       </form>
 
@@ -96,13 +98,10 @@
      </form>
 
      <h2>Leave us a message!</h2>
-    <form action="scripts/action.php" method="post">
-      <label for="message">Send a comment or question to swimmers, divers, or staff:</label>
-      <textarea name="message" id="message" rows="20" cols="100">Enter here:</textarea>
-      <input type="submit" value="Submit">
-    </form>
-
-
-
+     <form action="scripts/action.php" method="post">
+       <label for="message">Send a comment or question to swimmers, divers, or staff:</label>
+       <textarea name="message" id="message" rows="20" cols="100">Enter here:</textarea>
+       <input type="submit" value="Submit">
+     </form>
   </body>
 </html>
