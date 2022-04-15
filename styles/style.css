@@ -88,32 +88,26 @@ footer {
   justify-content: space-evenly;
   justify-items: center;
   padding: 4em;
-  max-width: 100%;
-  max-height: 100%;
 }
 .uk {
-  height: 100px;
   width: 100px;
   padding: 2em;
   border: 7px solid;
   box-shadow: 7px 7px white;
 }
 .nike {
-  height: 100px;
   width: 100px;
   padding: 2em;
   border: 7px solid;
   box-shadow: 7px 7px white;
 }
 .sec {
-  height: 100px;
   width: 100px;
   padding: 2em;
   border: 7px solid;
   box-shadow: 7px 7px white;
 }
 .ncaa {
-  height: 100px;
   width: 100px;
   padding: 2em;
   border: 7px solid;
