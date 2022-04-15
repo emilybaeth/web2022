@@ -23,14 +23,20 @@
     }
 
     .basic input {
-      border: 2px dotted black;
+      border: black;
       display: flex;
     }
 
     .button {
-      border: 1px solid;
-      padding: 10px;
-      box-shadow: 5px 10px 10px #0033A0;
+      border: none;
+      padding: 16px 32px;
+      text-align: center;
+      transition-duration: 0.4s;
+    }
+
+    .button:hover {
+      background-color: #0033A0;
+      color: white;
     }
 
     </style>
@@ -75,8 +81,8 @@
 
       <h2> Select your favorite stroke</h2>
       <form action="scripts/action.php" method="get">
-        <label for="stroke">Favorite stroke?</label>
-        <input list="stroke" id="stroke" name="stroke">
+        <label for="strokes">Favorite stroke?</label>
+        <input list="stroke" id="strokes" name="strokes">
         <datalist id="stroke">
           <option value="Butterfly"></option>
           <option value="Backstroke"></option>
@@ -88,7 +94,7 @@
 
       <h2>Which home meet are you most excited to attend?</h2>
       <form action="scripts/action.php" method="get">
-        <label for="meets">Select meet:</label>
+        <label for="meet">Select meet:</label>
         <select id="meet" name="meet">
           <option value="">--Please choose an option--</option>
           <option value="castle">Blue v. White Intrasquad</option>
