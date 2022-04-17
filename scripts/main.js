@@ -11,11 +11,24 @@ if (new Date().getHours() > 13) {
 }
 
 if (new Date().getHours() > 13) {
-  const footer = document.querySelector('footer');
-  footer.style.color = 'black';
+  const navbarBody = document.getElementsByClassName('navbar');
+  navbarBody[0].style.backgroundColor = 'black';
+  navbarBody[0].style.color = 'white';
 }
+
+// if (new Date().getHours() > 13) {
+//  const footer = document.querySelector('footer');
+//  footer.style.backgroundColor = 'black';
+// }
+
+// if (new Date().getHours() > 13) {
+// const imagesFooter = document.getElementsByClassName('images');
+//  imagesFooter[0].style.border = '7px solid white';
+//  imagesFooter[0].style.box-shadow = '7px 7px black';
+// }
 
 if (new Date().getHours() > 13) {
   const mainBody = document.getElementsByClassName('main');
-  mainBody [0].style.backgroundColor = 'black';
-  mainBody [0].style.color = 'white';
+  mainBody[0].style.backgroundColor = 'black';
+  mainBody[0].style.color = 'white';
+}
