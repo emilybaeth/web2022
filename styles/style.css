@@ -71,6 +71,7 @@ ul li {
 }
 footer {
   background-color: #0033A0;
+  padding: 8rem;
 }
 .images {
   display: grid;
@@ -96,7 +97,6 @@ footer {
 }
 .nike {
   width: 100px;
-  height: 100px;
   padding: 2em;
   border: 7px solid;
   box-shadow: 7px 7px white;
