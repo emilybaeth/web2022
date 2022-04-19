@@ -11,27 +11,27 @@ if (new Date().getHours() > 18) {
 }
 
 if (new Date().getHours() > 18) {
-  const navbarBody = document.getElementsByClassName('navbar');
-  navbarBody[0].style.backgroundColor = '#515151';
-  navbarBody[0].style.color = 'white';
+  const nav= document.getElementsByClassName('navbar');
+  nav[0].style.backgroundColor = '#515151';
+  nav[0].style.color = 'white';
 }
 
 if (new Date().getHours() > 18) {
-  const mainBody = document.getElementsByClassName('main');
-  mainBody[0].style.backgroundColor = 'black';
-  mainBody[0].style.color = 'white';
+  const mainpg= document.getElementsByClassName('main');
+  mainpg[0].style.backgroundColor = 'black';
+  mainpg[0].style.color = 'white';
 }
 
 if (new Date().getHours() > 18) {
-  const tablesBody = document.getElementsByClassName('tables');
-  tablesBody[0].style.backgroundColor = 'black';
-  tablesBody[0].style.color = 'white';
+  const table= document.getElementsByClassName('tables');
+  table[0].style.backgroundColor = 'black';
+  table[0].style.color = 'white';
 }
 
 if (new Date().getHours() > 18) {
-  const contactpgBody = document.getElementsByClassName('contactpg');
-  contactpgBody[0].style.backgroundColor = 'black';
-  contactpgBody[0].style.color = 'white';
+  const contact= document.getElementsByClassName('contactpg');
+  contact[0].style.backgroundColor = 'black';
+  contact[0].style.color = 'white';
 }
 
 
