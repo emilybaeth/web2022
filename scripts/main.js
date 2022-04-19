@@ -16,31 +16,29 @@ if (new Date().getHours() > 18) {
   body.style.color = "white";
 }
 
-
-
 if (new Date().getHours() > 18) {
   const nav= document.getElementsByClassName('navbar');
   nav[0].style.backgroundColor = '#0F0F0F';
   nav[0].style.color = 'white';
 }
 
-if (new Date().getHours() > 18) {
-  const mainpg= document.getElementsByClassName('main');
-  mainpg[0].style.backgroundColor = 'black';
-  mainpg[0].style.color = 'white';
-}
+//if (new Date().getHours() > 18) {
+//  const mainpg= document.getElementsByClassName('main');
+//  mainpg[0].style.backgroundColor = 'black';
+//  mainpg[0].style.color = 'white';
+//}
 
-if (new Date().getHours() > 18) {
-  const table= document.getElementsByClassName('tables');
-  table[0].style.backgroundColor = 'black';
-  table[0].style.color = 'white';
-}
+//if (new Date().getHours() > 18) {
+//  const table= document.getElementsByClassName('tables');
+//  table[0].style.backgroundColor = 'black';
+//  table[0].style.color = 'white';
+//}
 
-if (new Date().getHours() > 18) {
-  const contact= document.getElementsByClassName('contactpg');
-  contact[0].style.backgroundColor = 'black';
-  contact[0].style.color = 'white';
-}
+//if (new Date().getHours() > 18) {
+//  const contact= document.getElementsByClassName('contactpg');
+//  contact[0].style.backgroundColor = 'black';
+//  contact[0].style.color = 'white';
+//}
 
 
 // makes the black nike image disappear
