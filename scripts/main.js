@@ -22,8 +22,21 @@ if (new Date().getHours() > 18) {
   mainBody[0].style.color = 'white';
 }
 
+if (new Date().getHours() > 18) {
+  const tablesBody = document.getElementsByClassName('tables');
+  tablesBody[0].style.backgroundColor = 'black';
+  tablesBody[0].style.color = 'white';
+}
+
+if (new Date().getHours() > 18) {
+  const contactpgBody = document.getElementsByClassName('contactpg');
+  contactpgBody[0].style.backgroundColor = 'black';
+  contactpgBody[0].style.color = 'white';
+}
+
+
 // makes the black nike image disappear
-    // if (new Date().getHours() > 13) {
+    // if (new Date().getHours() > 18) {
     //  const footer = document.querySelector('footer');
     //  footer.style.backgroundColor = 'black';
     // }
