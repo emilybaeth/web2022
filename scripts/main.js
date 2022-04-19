@@ -12,7 +12,7 @@ if (new Date().getHours() > 18) {
 
 if (new Date().getHours() > 18) {
   const body = document.querySelector('body');
-  body.style.backgroundColor = '#252525';
+  body.style.backgroundColor = 'black';
   body.style.color = "white";
 }
 
