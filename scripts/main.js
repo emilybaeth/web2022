@@ -11,8 +11,16 @@ if (new Date().getHours() > 18) {
 }
 
 if (new Date().getHours() > 18) {
+  const body = document.querySelector('body');
+  body.style.backgroundColor = '#252525';
+  body.style.color = "white";
+}
+
+
+
+if (new Date().getHours() > 18) {
   const nav= document.getElementsByClassName('navbar');
-  nav[0].style.backgroundColor = '#515151';
+  nav[0].style.backgroundColor = '#0F0F0F';
   nav[0].style.color = 'white';
 }
 
